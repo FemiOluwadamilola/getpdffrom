@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<title><%=title%></title>
+</head>
+<body>
+    <nav id="navbar">
+       <h2>getpdffrom</h2>
+       <ul class="menu">
+       	  <li><a href="/" class="menu-item">Web to PDF</a></li>
+       	  <li><a href="/webToImage" class="menu-item">Web to Image</a></li>
+       	  <li><a href="/htmlToPdf" class="menu-item">HTML to PDF</a></li>
+       	  <li><a href="/htmlToImage" class="menu-item">HTML to Image</a></li>
+       </ul>
+        <!-- mobile view toggle button -->
+       <div id="toggle-btn">
+       	    <div></div>
+			<div></div>
+			<div></div>
+       </div>
+    </nav>
+	<main id="main">
+	  <%-body%>
+	</main>
+  <footer id="footer">
+  	 <h3>copyright &copy; 2022 powered by puppeteer</h3>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
